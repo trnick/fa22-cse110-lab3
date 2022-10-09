@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta name ="description" content="HTML meeting minutes">
   <head>
+    <meta name ="description" content="HTML meeting minutes"> </meta>
     <title> Web-App Brainstorm </title>
-    
+    <link rel="icon" type="image/x-icon" href="audiovideo/favicon.ico">
   </head>
   
   <header>
-    <link rel="icon" type="image/x-icon" href="audiovideo/favicon.ico">
-    <div class = "Title 1"> 
-        <h1> Web-App Brainstorm </h1>
-    </div>
-  </header>
-
-  <div class = "subtitle 1"> 
+    <h1> Web-App Brainstorm </h1>
+    <br>
     <h2> Brainstorming </h2>
-  </div>
-
-  <div class = "subtitle 2"> 
+    <br>
     <h3> Oct 8th 2022</h3>
-  </div>
+</header>
 
   <body>
     <main>
@@ -109,39 +102,39 @@
             </video>
         </section> 
     </main>
+
+
+    <footer>
+        <form>
+            <fieldset>
+                <strong> <i>Favorite Color: </i> </strong>
+                <br>
+                <input list = "FavoriteColor" name = "color" id = "c">
+                <br> 
+                <br>
+                <strong> <i> Why Do You Like This Color? </i> </strong>
+                <br>
+                <textarea></textarea>
+                <br>
+                <br>
+                <strong> <i> Preferred Tone: </i> </strong>
+                <br>
+                <select name="tone" id="t">
+                    <option value = "Brighter"> Brighter</option>
+                    <option value = "Darker"> Darker</option>
+                    <option value = "Softer"> Softer</option>
+                </select>
+                <br>
+                <br>
+                <button> Finish </button>
+            </fieldset>
+            <datalist id = "FavoriteColor">
+                <option value = "Blue"></option>
+                <option value = "Red"></option>
+                <option value = "Green"></option>
+                <option value = "Yellow"></option>
+            </datalist >
+        </form>
+      </footer>
   </body>
-
-  <footer>
-    <form>
-        <fieldset>
-            <strong> <i>Favorite Color: </i> </strong>
-            <br>
-            <input list = "Favorite Color" name = "color" id = "color">
-            <br> 
-            <br>
-            <strong> <i> Why Do You Like This Color? </i> </strong>
-            <br>
-            <textarea></textarea>
-            <br>
-            <br>
-            <strong> <i> Preferred Tone: </i> </strong>
-            <br>
-            <select name="color" id="color">
-                <option value = "Brighter"> Brighter</option>
-                <option value = "Darker"> Darker</option>
-                <option value = "Softer"> Softer</option>
-            </select>
-            <br>
-            <br>
-            <button> Finish </button>
-        </fieldset>
-        <datalist id = "Favorite Color">
-            <option value = "Blue"></option>
-            <option value = "Red"></option>
-            <option value = "Green"></option>
-            <option value = "Yellow"></option>
-        </datalist >
-    </form>
-
-  </footer>
 </html>
