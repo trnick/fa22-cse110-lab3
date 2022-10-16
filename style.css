@@ -1,0 +1,125 @@
+body {
+    background-color: lightblue; /* color of body*/
+  }
+
+  * {
+    color: blue;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue; /* color of body*/
+      }
+  }
+
+  .para { /* selected "section" class to turn gray */
+    color: gray;
+  }
+
+  #field { /* selected "field" id to turn gray and center*/
+    color: gray;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.google.com/specimen/Roboto");
+  }
+
+  h1 { /* header 1 styles*/
+    color: navy;
+    margin-left: 23em;
+    font-size: 5ex;
+    font-family: "Roboto", roboto;
+    width: 40vw;
+    position: static;
+  }
+
+  li.section { /* combining two selectors*/
+    background-color: lightgray
+  }
+
+  h3 + p { /* adjacent sibling */
+    background-color: lightgray;
+  }
+
+  h3 ~ p { /* general sibling */
+    width: 1000px;
+  }
+
+  h2 { /* header 2 styles*/
+    color : gray;
+    width: 2in;
+    height: 2px;
+    margin-left: 900px;
+    margin-bottom: 1cm;
+    position: relative;
+  }
+
+  h3, h4 { /* header 3 and 4 styles*/
+    text-decoration: green wavy underline;
+    text-align: left;
+    max-width: 20px;
+    min-width: 10px;
+  }
+
+  a[href^="#"] {
+    background-color:  #5bb1cd;
+  }
+
+  ol > li {
+    color: darkslateblue;
+  }
+
+  p, 
+  ul, li { /* unordered list styles (selector list)*/
+    padding: .5em;
+    margin-top: 10px;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+  }
+
+  .container { /* flex container styles*/
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .grid { /* grid styles*/
+    display: grid;
+    align-self: start;
+    grid-template-columns: auto;
+    grid-template-columns: [first] 400px [line2] 10px [line3] auto [col4-start] 20px [five] 40px [end];
+  }
+  
+  .block,
+  li { /* list styles*/
+    padding: .5em;
+    margin: auto;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-left-radius: 2px;
+    border-top-width: 2px;
+  }
+  
+  ul li { /* descendant combinator */
+    display: flex;
+    
+    list-style: none;
+    padding-top: .5em;
+  }
+
+  .block { /* display block styles*/
+    display: block;
+  }
+
+  button:hover { /* change hover color*/
+    color: white;
+  }
+
+  button:active { /* change active color*/
+    color: navy;
+  }

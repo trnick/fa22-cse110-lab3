@@ -4,6 +4,7 @@
     <meta name ="description" content="HTML meeting minutes">
     <title> Web-App Brainstorm </title>
     <link rel="icon" type="image/x-icon" href="audiovideo/favicon.ico">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -13,29 +14,33 @@
             <br>
             <h2> Brainstorming </h2>
             <br>
-            <h3> <span style="color:black">Oct 8th 2022</span></h3>
+            <h3> <span>Oct 8th 2022</span></h3>
         </header>
         <nav>
             <div> 
                 <h4> Sections</h4>
             </div>    
+            <div class = "container">
             <ul>
                 <li class="section"><a href="#attendance">Attendance</a></li>
                 <li class="section"><a href="#agenda">Agenda</a></li>
                 <li class="section"><a href="#unfinished">Unfinished</a></li>
                 <li class="section"><a href="#new">New</a></li>
             </ul>
+            </div>
         </nav>
         <hr>
         <section>
             <a name="attendance">
             </a>
             <h3> Attendance </h3>
-            <ul>
-                <li> Nicholas </li>
-                <li> Andrew </li> 
-                <li> Nathan </li>
-            </ul>
+            <div class = "grid">
+                <ul>
+                    <li> Nicholas </li>
+                    <li> Andrew </li> 
+                    <li> Nathan </li>
+                </ul>
+         </div>
         </section>
         <hr>
         <section>
@@ -58,7 +63,7 @@
             <a name="unfinished">
             </a>
             <h3> Unfinished </h3>
-            <p>
+            <p class = "para">
                 <strong> <i> Issue: </i> </strong>
                 Team was unable learn HTML from previous meeting, and will have to take more
                 time to look over documentation before resuming progress. Current meeting will
@@ -70,7 +75,7 @@
             <a name="new">
             </a>
             <h3> New </h3>
-            <p>
+            <p class = "para">
                 <strong> <i> Discussion: </i> </strong>
                 The idea of a dashboard was brought up, and would help the website more
                 accessible for users. We will discuss and decide on an API that will most help
@@ -81,8 +86,8 @@
         </section>
         <hr>
         <section>
-            <h3> Notes: </h3>
-            <p>
+            <h3> <a href="#notes"> Notes: </a> </h3>
+            <p  id = "field">
                 Everyone should prepare an idea of what API to use or a basic design of a dashboard at the
                 next meeting so the team can get started on implementation.
             </p>
