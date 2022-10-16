@@ -1,7 +1,7 @@
 # STANDUP Notes
 
 
-<u>Status Updates:</u>
+__ ## Status Updates: __
 What did I work on yesterday?
 
 
@@ -10,5 +10,5 @@ What issues/obstacles are intefering with progress?
 
 
 
-<u>Plan:</u>
+__ ## Plan: __
 What will I work on today?
