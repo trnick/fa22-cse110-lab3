@@ -22,15 +22,15 @@ body {
   }
 
   @font-face {
-    font-family: "Roboto";
-    src: url("https://fonts.google.com/specimen/Roboto");
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
   }
 
   h1 { /* header 1 styles*/
     color: navy;
     margin-left: 23em;
     font-size: 5ex;
-    font-family: "Roboto", roboto;
+    font-family: 'Roboto', sans-serif;
     width: 40vw;
     position: static;
   }
