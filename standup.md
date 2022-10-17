@@ -14,3 +14,5 @@ What issues/obstacles are intefering with progress?
 ## Plan:
 
 What will I work on today?
+
+How will I resolve previous issues?
